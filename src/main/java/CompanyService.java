@@ -14,7 +14,7 @@
 
 import java.util.List;
 
-public class CompanyService extends Company implements ICompanyService {
+public class CompanyService implements ICompanyService {
 
     @Override
     public Company getTopLevelParent(Company child) {
